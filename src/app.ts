@@ -62,5 +62,5 @@ export function complete() {
     console.log("Number of overweight people:", overWeightCounter);
 }
 
-// call to calculate BMI
+// function call to calculate BMI
 processJSONData(MOCK_INPUT_DATA, calcBMI, complete);
