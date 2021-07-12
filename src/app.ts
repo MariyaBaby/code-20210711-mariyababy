@@ -1,6 +1,6 @@
 import { MOCK_INPUT_DATA } from '../_mocks/input_data.mock';
 
-let overWeightCounter: number = 0;
+let overWeightCounter: number = 0; // calculates the number of overweight people
 
 export function processJSONData(inputData: any, processData: any, callback: any) {
     let maxTime = 100;
